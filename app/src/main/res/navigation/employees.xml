@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/employees"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.home_work_lection_6.Main"
+        android:label="Main" >
+        <action
+            android:id="@+id/action_main_to_employeeCard"
+            app:destination="@id/employeeCard" />
+    </fragment>
+    <fragment
+        android:id="@+id/employeeCard"
+        android:name="com.example.home_work_lection_6.EmployeeCard"
+        android:label="fragment_employee_card"
+        tools:layout="@layout/fragment_employee_card" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

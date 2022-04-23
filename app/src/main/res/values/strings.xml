@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Home_work_lection_6</string>
+    <string name="click_for_open_card">Click For Open Card</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="achievements_text">Награды/Достижения</string>
+    <string name="birthDay_text">Дата рождения</string>
+    <string name="work_text">Работает</string>
+</resources>
